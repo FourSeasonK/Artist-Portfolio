@@ -1,0 +1,284 @@
+/* * {
+    box-sizing: border-box;
+  } */
+body {
+  background-color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper {
+  width: 95%;
+  margin: auto;
+  box-shadow: 0 20px 30px 30px rgb(32, 5, 5);
+  background-color: black;
+}
+#headimg {
+  width: 100%;
+  height: 180px;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 7px 7px 3px black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.3em;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 13px 0 18px 0;
+  font-size: 1.3em;
+  font-family: Verdana;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+#current {
+  color: red;
+  font-weight: bold;
+}
+
+.artnote {
+  background-image: linear-gradient(to right, gray, white, gray);
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid red;
+  text-shadow: 1.5px 1.5px 1.5px red;
+  padding: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+h3 {
+  font-style: italic;
+  color: rgb(129, 0, 0);
+}
+p {
+  line-height: 1.7em;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 100%;
+}
+.picslides img {
+  height: 850px;
+}
+
+/* .fontc{
+    color: white;
+
+} */
+
+#size1,
+#size2,
+#size3,
+#size4,
+#size5,
+#size6,
+#size7,
+#size8,
+#size9,
+#size10 {
+  height: 100px;
+}
+
+/* //reference: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp   */
+img {
+  vertical-align: middle;
+}
+
+.container2 {
+  position: relative;
+}
+.picslides {
+  display: none;
+}
+.point {
+  cursor: pointer;
+}
+.before,
+.after {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.before {
+  left: 0;
+}
+.after {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.before:hover,
+.after:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.capcontainer {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-size: 1.1em;
+  font-style: italic;
+  text-shadow: 7px 7px 7px black;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 10%;
+}
+.image {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* //////////////////////// */
+
+footer {
+  margin-top: 80px;
+  background-color: gray;
+
+  clear: both;
+}
+
+footer p {
+  color: honeydew;
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #wrapper {
+    width: 100%;
+  }
+  .center {
+    font-size: 2.75em;
+  }
+  #headimg {
+    height: 140px;
+  }
+  nav {
+    padding: 10px 0 15px 0;
+  }
+  nav {
+    padding: 13px 0 18px 0;
+    font-size: 1.17em;
+  }
+  h1 {
+    width: 43%;
+  }
+  .picslides img {
+    height: 600px;
+  }
+  .capcontainer {
+    font-size: 1em;
+  }
+  #size1,
+  #size2,
+  #size3,
+  #size4,
+  #size5,
+  #size6,
+  #size7,
+  #size8,
+  #size9,
+  #size10 {
+    height: 80px;
+  }
+
+  footer {
+    margin-top: 60px;
+  }
+
+  footer p {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    font-size: 0.88em;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  .center {
+    font-size: 1.41em;
+  }
+  #headimg {
+    height: 80px;
+  }
+  nav {
+    padding: 15px 0 4px 0;
+    margin-left: 5px;
+    font-size: 0.68em;
+  }
+
+  h1 {
+    width: 60%;
+  }
+  .picslides img {
+    height: 380px;
+  }
+  .capcontainer {
+    font-size: 0.6em;
+  }
+
+  #size1,
+  #size2,
+  #size3,
+  #size4,
+  #size5,
+  #size6,
+  #size7,
+  #size8,
+  #size9,
+  #size10 {
+    height: 50px;
+  }
+  footer {
+    margin-top: 60px;
+  }
+
+  footer p {
+    font-size: 0.65em;
+  }
+}

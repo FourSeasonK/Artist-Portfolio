@@ -1,0 +1,312 @@
+/* * {
+    box-sizing: border-box;
+  } */
+body {
+  background-color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper {
+  width: 95%;
+  margin: auto;
+  box-shadow: 0 20px 30px 30px rgb(32, 5, 5);
+  background-color: black;
+}
+#headimg {
+  width: 100%;
+  height: 180px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 7px 7px 3px black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.3em;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 13px 0 18px 0;
+  font-size: 1.3em;
+  font-family: Verdana;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+#current {
+  color: red;
+  font-weight: bold;
+}
+
+#main {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.slideh {
+  display: none;
+}
+
+.mainbox {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#centertop1 p {
+  position: absolute;
+  top: 1%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: Papyrus, cursive;
+  box-shadow: 10px 10px 7px black;
+  font-size: 0.7em;
+  font-style: italic;
+  color: white;
+}
+
+#centertop1 a:hover {
+  color: white;
+}
+#centertop2 p {
+  position: absolute;
+  top: 1%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: Papyrus, cursive;
+  box-shadow: 10px 10px 7px black;
+  font-size: 0.7em;
+  font-style: italic;
+  color: white;
+}
+#centertop2 a:hover {
+  color: white;
+}
+
+#centertop2 a {
+  color: black;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#centertop1 a {
+  color: black;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 4px 4px 4px red;
+}
+#visual,
+h3 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  font-family: Papyrus, fantasy;
+  margin-bottom: 40px;
+}
+p {
+  margin-top: 50px;
+  color: gray;
+  text-align: center;
+  line-height: 1.8em;
+  font-size: 1.1em;
+}
+
+span {
+  color: wheat;
+  font-weight: bold;
+}
+
+#display {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  font-size: 1.3em;
+  padding: 5px 15px 5px 15px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 30.5em;
+  margin-top: 50px;
+}
+
+#strange {
+  color: red;
+  font-size: 1.5em;
+  font-style: italic;
+}
+button a:hover {
+  color: black;
+}
+
+.ficon {
+  width: 30px;
+  padding: 5px 5px 5px 5px;
+}
+#icon {
+  margin-left: 42em;
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: gray;
+  color: white;
+  clear: both;
+}
+
+footer p {
+  color: honeydew;
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #wrapper {
+    width: 100%;
+  }
+  .center {
+    font-size: 2.75em;
+  }
+  #headimg {
+    height: 140px;
+  }
+  nav {
+    padding: 10px 0 15px 0;
+  }
+  nav {
+    padding: 13px 0 18px 0;
+    font-size: 1.17em;
+  }
+  #centertop1 p {
+    top: 1%;
+    left: 43%;
+    padding: 5px;
+    font-size: 0.6em;
+  }
+
+  #centertop2 p {
+    left: 60%;
+    padding: 5px;
+    font-size: 0.6em;
+  }
+
+  button {
+    margin-left: 19em;
+  }
+
+  #display {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: 1.1em;
+    width: 90%;
+    margin-left: 41px;
+  }
+
+  #icon {
+    margin-left: 26em;
+  }
+  .para {
+    width: 80%;
+    margin: auto;
+  }
+  footer {
+    margin-top: 60px;
+  }
+
+  footer p {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    font-size: 0.88em;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  .center {
+    font-size: 1.41em;
+  }
+  #headimg {
+    height: 80px;
+  }
+  nav {
+    padding: 10px 0 15px 0;
+    font-size: 0.68em;
+  }
+
+  #centertop1 p {
+    top: 80%;
+    left: 39%;
+    font-size: 0.4em;
+  }
+  #centertop2 p {
+    top: 80%;
+    left: 65%;
+    font-size: 0.45em;
+  }
+  #visual {
+    font-size: 1.5em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  button {
+    margin-left: 7em;
+  }
+
+  #display {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #icon {
+    margin-left: 10.5em;
+  }
+  footer {
+    margin-top: 60px;
+  }
+
+  footer p {
+    font-size: 0.65em;
+  }
+}

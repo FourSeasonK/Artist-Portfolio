@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styles/contactstyle.css" type="text/css" />
+    <link rel="icon" href="../artworks/favicon.ico" type="image/ico" />
+    <meta name="viewport" content="width=devicewidth, initial-scale=1" />
+    <script src="../js/contactscripts.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="container1">
+          <img id="headimg" src="../images/header3.jpg" alt="Blue Painting" />
+          <div class="center">Projrct _ A _ Stranger</div>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a> &nbsp; &nbsp; &nbsp; &nbsp;</li>
+          <li>
+            <a href="performance.html">Performance Art</a> &nbsp; &nbsp; &nbsp;
+            &nbsp;
+          </li>
+          <li>
+            <a href="installation.html">Installation Art</a> &nbsp; &nbsp;
+            &nbsp; &nbsp;
+          </li>
+          <li>
+            <a href="workshop.html">Workshop</a> &nbsp; &nbsp; &nbsp; &nbsp;
+          </li>
+          <li id="current">
+            <a href="contact.html">Contact</a> &nbsp; &nbsp; &nbsp;
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h1 id="title">Contact Me</h1>
+        <img src="../artworks/contact(4).jpg" alt="Drawing Performance" />
+        <div id="contact">
+          <h1>Sun K.</h1>
+          <p>Performance & Installation Art, Drawing</p>
+          <p id="artnote">
+            My art is a Diary. <br />
+            To record my Taste, Scent and Color at the moment.
+          </p>
+
+          <h4>
+            <a href="mailto:fourseasonk77@gmail.com"
+              >fourseasonk77@gmail.com</a
+            >
+          </h4>
+          <a href="https://www.facebook.com/projectAstranger/">
+            <img class="ficon" src="../images/facebook.png" alt="Facebook Icon"
+          /></a>
+          <a href="https://sites.google.com/view/oksonia"
+          ><img class="ficon" src="../images/artwork.png" alt="Artwork Icon"
+        /></a>
+          <a id="email" href="https://www.linkedin.com/in/zenok/"
+            ><img class="ficon" src="../images/linkedin.png" alt="Linkedin Icon"
+          /></a>
+          <br /><br /><br /><br /><br /><br /><br />
+        </div>
+
+        <form>
+          <fieldset>
+            <legend>Question</legend>
+            <div class="formcont">
+              <label for="flname">Name*</label>
+              <input
+                type="text"
+                name="name"
+                id="flname"
+                placeholder="first and last name"
+              />
+            </div>
+            <div class="formcont">
+              <label for="pnumber">Phone number*</label>
+              <input
+                type="tel"
+                name="pnumber"
+                id="pnumber"
+                placeholder="(nnn) nnn-nnnn"
+              />
+            </div>
+            <div class="formcont">
+              <label for="remail">E-mail*</label>
+              <input
+                type="email"
+                name="myemail"
+                id="remail"
+                placeholder="kim@kim.com"
+              />
+            </div>
+            <div class="formcont">
+              <input
+                type="checkbox"
+                id="buyingart"
+                name="buyingart"
+                value="buying artworks"
+              />
+              <label for="buyingart"> Buying Artworks</label><br />
+              <input
+                type="checkbox"
+                id="exhibition"
+                name="exhibition"
+                value="exhibition"
+              />
+              <label for="exhibition"> Exhibition</label><br />
+              <input
+                type="checkbox"
+                id="performance"
+                name="performance"
+                value="performance"
+              />
+              <label for="performance"> Performance</label><br />
+              <input type="checkbox" id="others" name="others" value="others" />
+              <label for="others"> Others</label><br />
+            </div>
+            <div class="formcont">
+              <label for="comments" id="tell"
+                >Please write detailed information</label
+              >
+              <textarea
+                name="comments"
+                id="comments"
+                rows="6"
+                cols="20"
+              ></textarea>
+            </div>
+            <div class="button2">
+              <input
+                type="button"
+                value="Submit"
+                id="b1"
+                onclick="submitInformation()"
+              />
+              <input
+                type="button"
+                value="Cancle"
+                id="b2"
+                onclick="resetInfor()"
+              />
+              <p id="display"></p>
+            </div>
+          </fieldset>
+        </form>
+      </main>
+
+      <footer>
+        <p>
+          Copyright &copy;. All Rights Reserved 2021 - Zeno
+          <br />
+          Artwork image by<a href="https://www.facebook.com/projectAstranger/">
+            Sun K</a
+          >, 
+          Header image by
+          <a
+            href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Steve Johnson</a
+          >, Favicon by
+          <a
+            href="https://www.flaticon.com/free-icon/color-wheel_2919740?related_id=2919740"
+            >Flacticon</a
+          >, Icons by
+          <a href="https://www.flaticon.com/"> Flacticon</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

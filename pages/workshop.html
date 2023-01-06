@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Art Workshop</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styles/wshopstyle.css" type="text/css" />
+    <link rel="icon" href="../artworks/favicon.ico" type="image/ico" />
+    <meta name="viewport" content="width=devicewidth, initial-scale=1" />
+    <script src="../js/wshopscripts.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="container1">
+          <img id="headimg" src="../images/header3.jpg" alt="Blue Painting" />
+          <div class="center">Projrct _ A _ Stranger</div>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a> &nbsp; &nbsp; &nbsp; &nbsp;</li>
+          <li>
+            <a href="performance.html">Performance Art</a> &nbsp; &nbsp; &nbsp;
+            &nbsp;
+          </li>
+          <li>
+            <a href="installation.html">Installation Art</a> &nbsp; &nbsp;
+            &nbsp; &nbsp;
+          </li>
+          <li id="current">
+            <a href="workshop.html">Workshop</a> &nbsp; &nbsp; &nbsp; &nbsp;
+          </li>
+          <li><a href="contact.html">Contact</a> &nbsp; &nbsp; &nbsp;</li>
+        </ul>
+      </nav>
+      <main>
+        <h1>Making Mask</h1>
+        <h2>Expressing myself</h2>
+        <p id="para">
+          While in Seoul, I put on an art workshop for actors and actresses.
+          <br />
+          We made a stage props related to a director's script. <br />
+          We talked about their ideas for performance and we shared our inner
+          selves and tried to match our identities with our props. <br />
+          Finally, we created wonderful art props. They put on an excellent
+          performance.
+        </p>
+
+        <img id="mask1" src="../artworks/mask1.jpg" alt="Making Mask" />
+        <img id="mask2" src="../artworks/mask2.jpg" alt="Making Mask" />
+
+        <h1 id="class">Making mask class for public</h1>
+        <h2>Be Creative</h2>
+        <p>
+          Teaching art made me more flexible and lively. <br />
+          It improved my ability to communicate through art. <br />
+          I love sharing warmth and heart within the art class.
+        </p>
+        <table id="lefttable">
+          <thead></thead>
+          <tr>
+            <th>Class</th>
+            <th>Time</th>
+            <th>The number of people</th>
+          </tr>
+          <tbody></tbody>
+          <tr>
+            <td class="title">Morning Class</td>
+            <td>
+              10:00 am. - <br />
+              12:00 pm.
+            </td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td class="title">Afternoon Class</td>
+            <td>
+              14:00 pm. - <br />
+              16:00 pm.
+            </td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td class="title">Evening Class</td>
+            <td>
+              18:00 pm. - <br />
+              20:00 pm.
+            </td>
+            <td>10</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="3">*Including material</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <form id="rightform">
+          <fieldset>
+            <legend>Price calculator</legend>
+            <div>
+              <label for="number">The number of people:</label>
+              <input type="text" name="number" id="number" />
+            </div>
+            <div>
+              <input
+                type="button"
+                id="btn1"
+                value="Calculate"
+                onclick="calArray()"
+              /><input
+                type="button"
+                id="btn2"
+                value="Reset"
+                onclick="calArrdisplay()"
+              />
+
+              <p id="result1"></p>
+              <p></p>
+            </div>
+          </fieldset>
+        </form>
+
+        <form id="application">
+          <fieldset>
+            <legend>Application Form</legend>
+            <div class="formcont">
+              <label for="titleoption">Title</label>
+              <input list="title" name="titleoption" id="titleoption" />
+              <datalist id="title">
+                <option value="Mr."></option>
+                <option value="Mrs."></option>
+                <option value="Ms."></option>
+              </datalist>
+            </div>
+            <div class="formcont">
+              <label for="flname">Name*</label>
+              <input
+                type="text"
+                name="name"
+                id="flname"
+                placeholder="first and last name"
+                required
+              />
+            </div>
+            <div class="formcont">
+              <label for="pnumber">Phone number*</label>
+              <input
+                type="tel"
+                name="pnumber"
+                id="pnumber"
+                placeholder="(nnn) nnn-nnnn"
+                required
+              />
+            </div>
+            <div class="formcont">
+              <label for="remail">E-mail*</label>
+              <input
+                type="email"
+                name="myemail"
+                id="remail"
+                placeholder="k@k.com"
+                required
+              />
+            </div>
+            <div class="formcont">
+              <label for="people">The number of people</label>
+              <input
+                type="number"
+                name="people"
+                id="people"
+                min="1"
+                max="10"
+                value="1"
+              />
+            </div>
+            <div class="formcont">
+              <label for="date">Date of visit</label>
+              <input type="date" name="date" id="date" />
+            </div>
+            <div class="formcont">
+              <label for="select">Which class do you want?*</label>
+              <select name="select" id="select" size="3" required>
+                <option value="morningc">Morning Class</option>
+                <option value="afrernoonc">Afrernoon Class</option>
+                <option value="eveningc">Evening Class</option>
+              </select>
+            </div>
+            <div class="formcont">
+              <p>Have you participated in this workshop before?</p>
+              <label for="oyes" class="radio">Yes</label>
+              <input type="radio" name="oyes" id="oyes" class="radio" />
+              <label for="ono" class="radio">No</label>
+              <input type="radio" name="ono" id="ono" class="radio" />
+            </div>
+            <div class="formcont">
+              <label for="comments" id="tell">Tell us more about you!</label>
+              <textarea
+                name="comments"
+                id="comments"
+                rows="8"
+                cols="20"
+              ></textarea>
+            </div>
+            <div class="button2">
+              <input
+                type="button"
+                value="Submit"
+                id="b1"
+                onclick="submitInformation()"
+              />
+              <input
+                type="button"
+                value="Cancle"
+                id="b2"
+                onclick="resetInfor()"
+              />
+              <p id="display"></p>
+            </div>
+          </fieldset>
+        </form>
+      </main>
+
+      <footer>
+        <p>
+          Copyright &copy;. All Rights Reserved 2021 - Zeno
+          <br />
+          Profile image by<a href="https://www.facebook.com/projectAstranger/">
+            Sun K</a
+          >, Header image by
+          <a
+            href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Steve Johnson</a
+          >, Favicon by
+          <a
+            href="https://www.flaticon.com/free-icon/color-wheel_2919740?related_id=2919740"
+            >Flacticon</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

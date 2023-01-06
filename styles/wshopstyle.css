@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper {
+  width: 95%;
+  margin: auto;
+  box-shadow: 0 20px 30px 30px rgb(32, 5, 5);
+  background-color: black;
+}
+#headimg {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 0;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 7px 7px 3px black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.3em;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: black;
+  width: 20%;
+  float: left;
+  margin-top: 40px;
+}
+nav ul li {
+  display: block;
+  padding: 25px 0 25px 0;
+  font-size: 1.3em;
+  font-family: Verdana;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+#current a {
+  color: red;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 0;
+  width: 80%;
+  float: right;
+  background-image: linear-gradient(to right, gray, white, gray);
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border: 3px solid red;
+  text-shadow: 1.5px 1.5px 1.5px red;
+  padding: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+h2,
+p {
+  text-align: center;
+}
+h2 {
+  font-style: italic;
+  color: rgb(129, 0, 0);
+}
+p {
+  line-height: 1.7em;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#class {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border: 3px solid red;
+  text-shadow: 1.5px 1.5px 1.5px red;
+  padding: 10px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#mask1,
+#mask2 {
+  width: 50%;
+  display: inline-block;
+}
+#mask1 {
+  float: left;
+}
+
+tr,
+th,
+td,
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+tr,
+td {
+  background-color: white;
+}
+
+th {
+  background-color: rgb(129, 0, 0);
+  color: white;
+}
+#lefttable {
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 50%;
+  float: left;
+}
+#rightform {
+  width: 40%;
+  display: inline-block;
+  margin-left: 35px;
+}
+#btn1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+#result1 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+#rightform legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 2px solid rgb(129, 0, 0);
+  background-color: rgb(129, 0, 0);
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+}
+#rightform fieldset {
+  border: 2px solid black;
+  background-color: white;
+}
+
+tbody {
+  text-align: center;
+}
+tfoot {
+  font-size: small;
+  font-style: italic;
+  text-align: right;
+}
+
+legend {
+  font-size: 2em;
+  margin-bottom: 20px;
+  border: 3px solid rgb(129, 0, 0);
+  padding: 10px;
+}
+
+#rightform {
+  text-align: center;
+  margin-top: 30px;
+}
+#rightform label {
+  font-weight: bold;
+}
+#btn1,
+#btn2 {
+  font-weight: bold;
+}
+#application {
+  width: 80%;
+  text-align: center;
+  margin-top: 10em;
+  clear: both;
+  margin-left: 100px;
+  margin-bottom: 30px;
+
+  color: white;
+}
+#application fieldset {
+  background-color: rgb(29, 28, 28);
+}
+
+#application legend {
+  background-color: rgb(129, 0, 0);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.radio {
+  margin-top: 52px;
+}
+#oyes,
+#ono {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  justify-content: right;
+}
+
+.formcont {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+#titleoption,
+#flname,
+#pnumber,
+#remail,
+#tmonth,
+#date,
+#select,
+#comments {
+  width: 50%;
+}
+
+#b1,
+#b2 {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+#display{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: gray;
+
+  clear: both;
+}
+footer a {
+  text-decoration: none;
+  color: honeydew;
+}
+
+footer p {
+  color: honeydew;
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #wrapper {
+    width: 100%;
+  }
+  .center {
+    font-size: 2.75em;
+  }
+  #headimg {
+    height: 140px;
+  }
+  nav ul {
+    padding-bottom: 10px;
+    width: 25%;
+  }
+  nav ul li {
+    padding: 15px 0 15px 0;
+    font-size: 1.1em;
+  }
+  main {
+    width: 75%;
+  }
+  h1 {
+    width: 43%;
+  }
+  #para {
+    width: 85%;
+    margin-left: 50px;
+  }
+
+  #class {
+    width: 82%;
+  }
+  #lefttable {
+    margin-left: 70px;
+    width: 80%;
+  }
+  #rightform {
+    width: 70%;
+    display: inline-block;
+    margin-left: 105px;
+    margin-top: 50px;
+  }
+  #application {
+    width: 90%;
+    margin-top: 5em;
+    margin-left: 40px;
+  }
+  #b1,
+  #b2 {
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+
+  footer {
+    margin-top: 60px;
+  }
+
+  footer p {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    font-size: 0.88em;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  .center {
+    font-size: 1.41em;
+  }
+  #headimg {
+    height: 80px;
+  }
+
+  nav ul li {
+    display: block;
+    font-size: 0.9em;
+    padding: 10px 0 15px 0;
+    border-bottom: 2px solid rgb(105, 1, 1);
+    border-radius: 25px;
+    text-align: center;
+    padding-left: 30px;
+  }
+  nav ul {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+  }
+  main {
+    width: 100%;
+  }
+
+  #lefttable {
+    margin-left: 25px;
+    width: 90%;
+  }
+
+  tr,
+  th,
+  td,
+  table {
+    padding: 5px;
+  }
+  #rightform {
+    width: 80%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  #application {
+    width: 95%;
+    margin-top: 5em;
+    margin-left: 13px;
+  }
+  #application label,
+  p {
+    font-size: 0.75em;
+  }
+
+  footer {
+    margin-top: 60px;
+  }
+
+  footer p {
+    font-size: 0.65em;
+  }
+}
