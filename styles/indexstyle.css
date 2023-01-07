@@ -62,9 +62,18 @@ a:hover {
 
 .mainbox {
   position: relative;
+  /* margin: auto; */
   text-align: center;
   color: white;
 }
+
+#basbtn {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 #centertop1 p {
   position: absolute;
   top: 1%;
@@ -176,8 +185,13 @@ button a:hover {
   padding: 5px 5px 5px 5px;
 }
 #icon {
-  margin-left: 42em;
-  margin-top: 50px;
+  /* margin-left: 42em;
+  margin-top: 50px; */
+  /* display: block; */
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 40%; */
 }
 
 footer {
@@ -226,6 +240,7 @@ footer p {
 
   button {
     margin-left: 19em;
+    /* margin: auto; */
   }
 
   #display {
@@ -239,7 +254,10 @@ footer p {
   }
 
   #icon {
-    margin-left: 26em;
+    /* margin-left: 26em; */
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
   }
   .para {
     width: 80%;
@@ -271,6 +289,10 @@ footer p {
     font-size: 0.68em;
   }
 
+  .atag a {
+    padding: 0 5px 0 5px;
+  }
+
   #centertop1 p {
     top: 80%;
     left: 39%;
@@ -300,7 +322,10 @@ footer p {
   }
 
   #icon {
-    margin-left: 10.5em;
+    /* margin-left: 10.5em; */
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
   }
   footer {
     margin-top: 60px;
