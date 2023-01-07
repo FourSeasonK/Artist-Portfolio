@@ -207,13 +207,17 @@ footer p {
   #headimg {
     height: 140px;
   }
-  nav {
+  /* nav {
     padding: 10px 0 15px 0;
-  }
+  } */
   nav {
     padding: 13px 0 18px 0;
     font-size: 1.17em;
   }
+  main {
+    margin-top: 13px;
+    }
+
   h1 {
     width: 43%;
   }
@@ -263,7 +267,10 @@ footer p {
     margin-left: 5px;
     font-size: 0.68em;
   }
-
+  
+  main {
+    margin-top: 0;
+   }
 
   h1 {
     width: 60%;

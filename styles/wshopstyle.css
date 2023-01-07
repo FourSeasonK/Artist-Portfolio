@@ -366,6 +366,7 @@ footer p {
     padding-bottom: 5px;
     padding-right: 30px;
     padding-left: 30px;
+    margin: auto;
     width: 100%;
   }
 
@@ -377,8 +378,16 @@ footer p {
     width: 100%;
   }
 
+#para {
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  
+  }
+
   #lefttable {
-    margin-left: 25px;
+    margin-left: 22px;
     width: 90%;
   }
 
@@ -396,8 +405,9 @@ footer p {
   }
   #application {
     width: 95%;
+    margin: auto;
     margin-top: 5em;
-    margin-left: 13px;
+    /* margin-left: 13px;  */
   }
   #application label,
   p {

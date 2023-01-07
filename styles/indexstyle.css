@@ -218,24 +218,34 @@ footer p {
   #headimg {
     height: 140px;
   }
-  nav {
+  /* nav {
     padding: 10px 0 15px 0;
-  }
+  } */
   nav {
     padding: 13px 0 18px 0;
     font-size: 1.17em;
   }
+
+  #centertop1{
+  padding-top: 20px;
+}
+
+#centertop2{
+  padding-top: 20px;
+}
   #centertop1 p {
     top: 1%;
     left: 43%;
     padding: 5px;
     font-size: 0.6em;
+    width: 20%;
   }
 
   #centertop2 p {
     left: 60%;
     padding: 5px;
     font-size: 0.6em;
+    width: 20%;
   }
 
   button {
@@ -297,6 +307,7 @@ footer p {
     top: 80%;
     left: 39%;
     font-size: 0.4em;
+    width: 25%;
   }
   #centertop2 p {
     top: 80%;
